@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-shadow-no1 {
+    text-shadow:
+        1px 1px 0 #4a90e2,
+        -1px 1px 0 #4a90e2,
+        -1px -1px 0 #4a90e2,
+        1px -1px 0 #4a90e2;
+}
+
+.text-shadow-no2 {
+    text-shadow:
+        1px 1px 0 #50e3c2,
+        -1px 1px 0 #50e3c2,
+        -1px -1px 0 #50e3c2,
+        1px -1px 0 #50e3c2;
+}
+
+.text-shadow-no3 {
+    text-shadow:
+        1px 1px 0 #e35050,
+        -1px 1px 0 #e35050,
+        -1px -1px 0 #e35050,
+        1px -1px 0 #e35050;
+}
+
+.text-shadow-rest {
+    text-shadow:
+        1px 1px 0 rgba(0, 0, 0, 0.5),
+        -1px 1px 0 rgba(0, 0, 0, 0.5),
+        -1px -1px 0 rgba(0, 0, 0, 0.5),
+        1px -1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.slick-next:before,
+.slick-prev:before {
+    font-size: 38px !important;
+}
+
+.slick-next {
+    right: -20px !important;
+}
+
+.slick-prev {
+    left: -20px !important;
+}
